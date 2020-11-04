@@ -36,7 +36,8 @@ sudo ln -s /opt/nexus/bin/nexus /etc/init.d/nexus
 Login as a nexus user and start service
 ```sh
 su - nexus
-service nexus start
+/etc/init.d/nexus start
+/etc/init.d/nexus status
 ```
 
 Login nexus server from browser on port 8081
